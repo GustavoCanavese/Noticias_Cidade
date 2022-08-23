@@ -1,0 +1,179 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background: whitesmoke;
+}
+
+#alinhamento #marcado{
+    background: rgb(218, 79, 79);
+}
+
+hr{
+    height: 20px;
+    color: white;
+    background-color: whitesmoke;
+    border: none;
+}
+
+#parte-baixo-total{
+    margin: 100px 300px;
+    /* border: 1px solid red; */
+    
+}
+
+#cabeçalho{
+    width: 1900px;
+    height: 230px;
+    background: url(../imagens/fundo.png);
+}
+
+#imagem-br{
+    float: right;
+    margin-right: 460px;
+}
+
+#imagem-logo{
+    margin: 20px 0px 0px 380px;
+}
+
+
+#alinhamento ul li{
+    color: white;
+    display: inline-block;
+}
+
+#alinhamento ul a, #alinhamento ul a:visited{
+    color: white;
+    padding: 15px;
+    background: #b10333 url(../imagens/divisor.png) no-repeat right ;
+    margin: 0px -3px;
+}
+
+#alinhamento ul a:hover{
+    color: rgb(218, 79, 79);
+}
+
+#alinhamento{
+    margin: -120px 0px 0px 320px;
+}
+
+
+.titulo{
+    border: 1px solid rgb(0, 0, 0);
+    margin:  10px;
+    background: #294c71;
+    color: white;
+    padding: 5px;
+    
+}
+
+.content{
+    margin: 10px;
+    background: white;
+    padding: 10px;
+}
+
+
+
+.materia{
+    width: 200px;
+    margin: 20px 20px 0px 20px;
+    background: url(../imagens/fundo-caixa.png);
+    padding: 5px 0px 5px 0px;
+    float: left;
+    clear: left;
+    /* border: 1px red solid; */
+}
+
+.materia ul li{
+    padding: 10px 0px 10px 5px;
+}
+
+.materia a, .materia a:visited{
+    color: black;
+    font-weight: 550;
+    font-size: 15px;
+}
+
+.materia a:hover{
+    background: url(../imagens/marcador.png) no-repeat left;
+    padding-left: 20px;
+    color: rgb(121, 121, 121);
+}
+
+.cadastro1{
+    background: white;
+    padding-right: 123px;
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.cadastro2{
+   margin-left: 10px;
+   margin-top: -1px;
+   line-height: 30px;
+}
+
+.botao{
+    margin-left: 10px;
+    background: #b10333;
+    padding: 10px;
+    border: 1px solid rgba(255, 0, 0, 0.226);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.botao:hover{
+    margin-left: 10px;
+    background: #ee0748;
+    padding: 10px;
+    border: 1px solid rgba(255, 0, 0, 0.226);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#post{
+    /* border: #b10333 1px solid; */
+    float: left;
+    margin: 20px;
+    width: 400px;
+    background: url(../imagens/fundo-caixa.png);
+}
+
+.tamanho{
+    width: 340px;
+    margin-left: 10px
+}
+
+p{
+    margin: 10px;
+}
+
+.ler-mais{
+    color: #b10333;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+h2{
+    background: rgb(214, 0, 0);
+    width: 80%;
+    margin-left: 10px;
+    font-size: 20px;
+    padding-left: 10px;
+    border-radius: 8px;
+    color: whitesmoke;
+}
+
+.fundo{
+    background-color: white;
+    margin: 20px;
+    padding-top: 10px;
+}
